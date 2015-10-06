@@ -1,0 +1,36 @@
+ul {
+  list-style-type: none; }
+
+.container {
+  margin: 0;
+  width: 600px; }
+
+.accordian {
+  margin: 0;
+  width: 100%;
+  height: auto; }
+
+.li {
+  display: inline-block;
+  border: 1px solid #2DC5D8;
+  width: 600px; }
+
+.normalBtn {
+  box-shadow: none;
+  border-radius: 0;
+  width: 600px;
+  height: 50px;
+  transition: height 1s, color 1s;
+  background-color: #2DC5D8; }
+
+.slideBtn {
+  height: 50px;
+  background-color: #33D9EF; }
+
+.normalPar {
+  margin: 0;
+  height: 50px; }
+
+.collapsePar {
+  height: 0;
+  transition: height 1s; }
