@@ -8,7 +8,7 @@ $('button').on('click', function(event) {
 
   btn.siblings().addClass('collapsePara');
 
-// Target siblings of button & remove and collapse
+// Target siblings of button, remove class and collapse
  
   btn.parent().siblings().find('normalPara').removeClass('normalPara').addClass('collapsePara');
 
